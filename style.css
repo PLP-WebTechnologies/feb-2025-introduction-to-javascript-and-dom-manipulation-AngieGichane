@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.dynamic-text {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.button-group {
+  margin: 15px 0;
+}
+
+.button-group button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+.added-element {
+  background-color: #f0f8ff;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  text-align: center;
+}
